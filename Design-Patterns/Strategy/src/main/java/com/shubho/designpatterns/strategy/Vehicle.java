@@ -2,7 +2,7 @@ package com.shubho.designpatterns.strategy;
 
 public class Vehicle {
     
-    private final DriveStrategy driveStrategy;
+    private DriveStrategy driveStrategy;
 
     // Constructor
 

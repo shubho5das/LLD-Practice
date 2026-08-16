@@ -7,13 +7,13 @@ public class StrategyPatternTest {
     @Test
     public void testVehiclesWithDifferentStrategies() {
 
-        Vehicle passengerVehicle = new PassengerVehicle(new NormalDriveStrategy());
+        Vehicle passengerVehicle = new PassengerVehicle();
         
-        Vehicle sportsVehicle = new SportsVehicle(new SportsDriveStrategy());
+        Vehicle sportsVehicle = new SportsVehicle();
 
-        Vehicle offroadVehicle = new OffroadVehicle(new OffroadDriveStrategy());
+        Vehicle offroadVehicle = new OffroadVehicle();
 
-        Vehicle racingVehicle = new RacingVehicle(new SportsDriveStrategy());
+        Vehicle racingVehicle = new RacingVehicle();
 
         passengerVehicle.drive(); 
         sportsVehicle.drive();

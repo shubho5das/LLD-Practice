@@ -3,8 +3,8 @@ package com.shubho.designpatterns.strategy;
 public class PassengerVehicle extends Vehicle {
     
     // Constructor
-    
-    public PassengerVehicle(DriveStrategy driveStrategy){
-        super(driveStrategy);
+
+    public PassengerVehicle(){
+        super(new NormalDriveStrategy());
     }
 }
